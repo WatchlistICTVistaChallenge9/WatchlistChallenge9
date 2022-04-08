@@ -8,6 +8,7 @@ include_once 'exportmuziek.php';
 
 ?>
 
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -43,7 +44,8 @@ include_once 'exportmuziek.php';
                 <p class="muziekminuten"> <?= $muziek['minuten'];?> Minuten en </p>
                 <p class="muziekseconden"> <?= $muziek['seconden'];?> Seconden </p>
                 <img  class ='muziekfoto' src= <?=  $muziek['foto']; ?> >
-                <a href="booleanedit.php?id=<?= $muziek['id']?>"><img class="vinkjebutton" src="images/vinkje.png"> </a>
+                <a href="booleanedit.php?id=<?= $muziek['id']?>"target="Iframe"><img class="vinkjebutton" src="images/vinkje.png"> </a>
+                <iframe name="Iframe" style="display:none"></iframe>
                 <p class="muzieklocatie"> <?= $muziek['locatie'];?></p>
                 <a href="deletemuziek.php?id=<?= $muziek['id']?>"><img class="delete" src="images/trash.png"></a>
                 <a href="wijzigmuziek.php?id=<?= $muziek['id']?>"><img class="wijzig" src="images/pencil.png"></a>
@@ -66,7 +68,8 @@ include_once 'exportmuziek.php';
             <p class="filmminuten"> <?= $films['minuten']; ?> Minuten </p>
             <img  class ='filmfoto' src= <?=  $films['foto']; ?> >
             <p class="filmhoofdrolspeler"> Hoofdrolspeler: <?= $films['hoofdrolspeler']; ?> </p>
-            <a href="booleanedit.php?id=<?= $films['id']?>"><img class="vinkjebutton" src="images/vinkje.png"> </a>
+            <a href="booleanedit.php?id=<?= $films['id']?>"target="Iframe"><img class="vinkjebutton" src="images/vinkje.png"> </a>
+            <iframe name="Iframe" style="display:none"></iframe>
             <p class="filmlocatie"> Applicatie: <?= $films['locatie']; ?></p>
             <a href="deletefillms.php?id=<?= $films['id']?>"><img class="delete" src="images/trash.png"></a>
             <a href="wijzigfilm.php?id=<?= $films['id']?>"><img class="wijzig" src="images/pencil.png"></a>
