@@ -1,0 +1,247 @@
+* {
+    scroll-behavior: smooth;
+}
+::-webkit-scrollbar {
+    width: 10px;
+}
+::-webkit-scrollbar-track {
+    opacity: 0.3
+}
+::-webkit-scrollbar-thumb {
+    background-color: darkgray;
+    border-radius: 10px;
+}
+
+body{
+    font-family: sans-serif;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    background-color: rgba(49, 61, 105, 0.767);
+}
+
+.hbalk{
+    position: relative;
+    width: 48vw;
+    height: 3vw;
+    top: -56vw;
+    background-color: rgba(0, 0, 0, 0.314);
+}
+
+.hbalk2{
+    position: relative;
+    width: 49vw;
+    height: 3vw;
+    top: -59vw;
+    left: 51vw;
+    background-color: rgba(0, 0, 0, 0.314);
+}
+
+.vbalk{
+    position: relative;
+    width: 3vw;
+    height: 50vw;
+    left: 48vw;
+    bottom: 13.6vw;
+    background-color: rgba(0, 0, 0, 0.314);
+}
+
+.plek1{
+    position: relative;
+    left: 3px;
+    bottom: 58.9vw;
+    color: wheat;
+    width: 48vw;
+    height: 37vw;
+    overflow-x: hidden;
+}
+
+.plek2{
+    position: relative;
+    left: 51.2vw;
+    bottom: 96vw;
+    color: wheat;
+    width: 48vw;
+    height: 36.5vw;
+    overflow: scroll;
+}
+
+.muziektitelboven{
+    position: relative;
+    top: -1vw;
+    left: 17vw;
+    font-size: 50px;
+}
+
+.filmtitelboven{
+    position: relative;
+    left: 75vw;
+    top: -7.5vw;
+    font-size: 50px;
+}
+
+.addmusic{
+    position: relative;
+    text-decoration: none;
+    left: 14vw;
+    top: 2.5vw;
+    font-size: 40px;
+    color: black;
+}
+
+.addmovie{
+    position: relative;
+    text-decoration: none;
+    left: 72vw;
+    top: -4vw;
+    font-size: 40px;
+    color: black;
+}
+
+
+.filmkaart {
+    height: 14vw;
+    width: 44.5vw;
+    background-color: rgb(32, 37, 39);
+    margin-left: 1vw;
+    border-radius: 2vw;
+    margin-bottom: 1vw;
+}
+
+.filmkaartwatched {
+    height: 14vw;
+    width: 44.5vw;
+    background-color: greenyellow;
+    margin-left: 1vw;
+    border-radius: 2vw;
+    margin-bottom: 1vw;
+}
+
+
+.filmtitel{
+    font-size: 150%;
+    text-decoration: bold;
+    text-align: center;
+}
+
+.filmfoto {
+    width: 10vw;
+    height: 13.5vw;
+    position: relative;
+    bottom: 7.5vw;
+    float: right;
+    right: 1vw;
+    border-radius: 1vw;
+}
+
+.filmregisseur {
+    text-align: center;
+    bottom: 1vw;
+    position:Relative;
+}
+
+.filmminuten {
+    text-align: right;
+    position:relative;
+    top: 6vw;
+    right: 2vw;
+}
+
+.filmlocatie {
+    position:Relative;
+    top: -1.5vw;
+    left: 1vw;
+}
+
+.filmhoofdrolspeler {
+    position: relative;
+    text-align: center;
+    bottom: 3.5vw;
+}
+
+.vinkje {
+    height: 2vw;
+    width: 2vw;
+    
+}
+.vinkjebutton {
+    height: 3vw;
+    width: 3vw;
+    bottom: 9vw;
+    position:Relative;
+    cursor: pointer;
+    background-color: rgb(32, 37, 39);
+    border: 0;
+    border-radius: 1vw;
+}
+
+
+
+
+.delete{
+    position: relative;
+    width: 2vw;
+    height: auto;
+    bottom: 10vw;
+    left: 12px;
+}
+
+.wijzig{
+    position: relative;
+    width: 2vw;
+    height: auto;
+    bottom: 7vw;
+    right: 1.5vw;
+}
+
+
+.muziekkaart {
+    height: 14vw;
+    width: 44.5vw;
+    background-color: rgb(32, 37, 39);
+    margin-left: 1vw;
+    border-radius: 2vw;
+    margin-bottom: 1vw;
+}
+
+.muziektitel{
+    font-size: 150%;
+    text-decoration: bold;
+    text-align: center;
+}
+
+.muziekfoto {
+    width: 10vw;
+    height: 10vw;
+    position: relative;
+    bottom: 9vw;
+    float: right;
+    right: 1vw;
+    border-radius: 1vw;
+}
+
+.muziekartiest {
+    text-align: center;
+    bottom: 1vw;
+    position:Relative;
+}
+
+.muziekminuten {
+    text-align: right;
+    position:relative;
+    top: 6vw;
+    right: 7.5vw;
+}
+
+.muzieklocatie {
+    position:Relative;
+    bottom: 2vw;
+    left: 1vw;
+}
+
+.muziekseconden {
+    position: relative;
+    text-align: center;
+    top: 3.8vw;
+    left: 18vw;
+}

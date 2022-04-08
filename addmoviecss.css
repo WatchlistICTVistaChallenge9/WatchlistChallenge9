@@ -1,0 +1,98 @@
+body {
+    margin:0;
+    padding:0;
+    background-color: #686875;
+    color: white;
+    overflow: hidden;
+    font-family: sans-serif;
+}
+
+p {
+    font-size: 200%;
+    position:relative;
+    width: 98vw;
+    text-align:Center;
+}
+
+.mintext {
+    font-size: 200%;
+    width: 5vw;
+    height: 5vw;
+    position:relative;
+    left: 17vw;
+    bottom: 5.5vw;
+}
+
+.sectext {
+    font-size: 200%;
+    width: 5vw;
+    height: 5vw;
+    position:relative;
+    left: 17vw;
+    bottom: 12vw;
+}
+
+.backaddmovie {
+    width: 12vw;
+    height: 4vw;
+    position:relative;
+    border-radius: 0.5vw;
+    border: 0;
+    font-size: 120%;
+    margin: 0.5vw;
+}
+
+.invoervelden {
+    width: 30vw;
+    height: 6vw;
+    border-radius: 1vw;
+    border: 0;
+    margin-bottom: 1vw;
+    font-size: 200%;
+}
+
+.invoerminuten {
+    Width: 15vw;
+    height: 6vw;
+    border-radius: 1vw;
+    border: 0;
+    margin-bottom: 1vw;
+    font-size: 200%;
+}
+
+.invoerseconden {
+    Width: 15vw;
+    height: 6vw;
+    border-radius: 1vw;
+    border: 0;
+    margin-bottom: 1vw;
+    font-size: 200%;
+    bottom: 6.5vw;
+    position:Relative;
+}
+
+.rechts {
+    width: 50vw;
+    float: right;
+    position:relative;
+    bottom: 20.25vw;
+    margin: 0;
+}
+.links {
+    position:relative;
+    top: 1vw;
+    left: 14vw;
+    width: 50vw;
+    margin: 0;
+}
+
+.toevoegen {
+  left: 40vw;
+  position:relative;
+  border: 0;
+  border-radius: 1vw;
+  height: 4vw;
+  width: 18vw;
+  margin-top: 1vw;
+}
+
